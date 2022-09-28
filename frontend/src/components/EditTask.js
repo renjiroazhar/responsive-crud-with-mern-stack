@@ -30,7 +30,9 @@ const EditTask = () => {
       });
       navigate("/");
     } catch (error) {
-      console.log(error);
+      console.log( "Error :", error )
+      console.log( "Error Response :", error.response )
+      console.log( "Error Response Data :", error.response.data )
     }
   };
  

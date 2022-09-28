@@ -18,5 +18,3 @@ app.use(express.json());
 app.use(TaskRoute);
 
 app.listen(5000, () => console.log('Server up and running'));
-
-app.listen(PORT, () => console.log('Connected to http://localhost:${PORT}'));
