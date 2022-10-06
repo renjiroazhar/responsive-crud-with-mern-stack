@@ -18,3 +18,6 @@ app.use(express.json());
 app.use(TaskRoute);
 
 app.listen(5000, () => console.log('Server up and running'));
+
+let ab = 2;
+console.log(ab);
